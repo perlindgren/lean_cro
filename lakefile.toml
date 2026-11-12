@@ -1,0 +1,10 @@
+name = "lean_cro"
+version = "0.1.0"
+defaultTargets = ["lean_cro"]
+
+[[lean_lib]]
+name = "LeanCro"
+
+[[lean_exe]]
+name = "lean_cro"
+root = "Main"
