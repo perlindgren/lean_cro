@@ -1,9 +1,12 @@
 name = "lean_cro"
 version = "0.1.0"
-defaultTargets = ["lean_cro"]
+defaultTargets = ["lean_cro", "Examples"]
 
 [[lean_lib]]
 name = "LeanCro"
+
+[[lean_lib]]
+name = "Examples"
 
 [[lean_exe]]
 name = "lean_cro"
